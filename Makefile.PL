@@ -22,6 +22,13 @@ my %WriteMakefileArgs = (
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES => 'libreplace-*' },
+    resources => {
+      repository  => {
+        url  => 'git@github.com:EvanCarroll/perl5-libreplace.git',
+        web  => 'https://github.com/EvanCarroll/perl5-libreplace',
+        type => 'git',
+      },
+    }
 );
 
 # Compatibility with old versions of ExtUtils::MakeMaker
