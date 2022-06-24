@@ -26,6 +26,14 @@ clobbering behavior that takes its arguments from C<PERL5INC>.
     
 		PERL5LIB="foo:bar:baz" perl -Mlibreplace ./script.pl
 
+This was mainly created for the purposes of `container-perl`,
+
+=over 6
+
+=item https://github.com/EvanCarroll/container-perl
+
+=back
+
 =head1 AUTHOR
 
 Evan Carroll, C<< <me at evancarroll.com> >>
