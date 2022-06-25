@@ -22,7 +22,7 @@ The environmental variable C<PERL5LIB> appends to C<@INC>, by using
 L<libreplace> it will replace (clobber) C<@INC> instead.
 
 You can alternatively think of this kinda like C<use lib>, except with
-clobbering behavior that takes its arguments from C<PERL5INC>.
+clobbering behavior that takes its arguments from C<PERL5LIB>.
     
 		PERL5LIB="foo:bar:baz" perl -Mlibreplace ./script.pl
 
